@@ -1,8 +1,38 @@
+## 👥 Penanggung Jawab
+
+**Muhammad Sausan Syafiq - AI Engineer**
+
 # 🤖 Tenantify AI — Backend Rekomendasi & Moderasi NLU
 
 **Tenantify AI** merupakan layanan backend berbasis kecerdasan buatan yang mendukung fitur rekomendasi produk UMKM dan moderasi komentar pada platform Tenantify.
 
 Layanan ini menggunakan pendekatan **Content-Based Filtering** dengan model multilingual `BAAI/bge-m3` dan `FAISS Index` untuk menghasilkan rekomendasi produk yang relevan. Selain itu, tersedia sistem **Natural Language Understanding (NLU)** untuk mengklasifikasikan dan memoderasi komentar pengguna.
+
+---
+
+## 📚 Repository & Sumber Proyek
+
+Tenantify dikembangkan dalam beberapa repository yang saling terintegrasi untuk membangun satu ekosistem digital. Berikut adalah repository resmi yang dapat diakses untuk melihat implementasi dan dokumentasi setiap komponen.
+
+| Komponen | Repository | Deskripsi |
+|---|---|---|
+| **Organization** | [tenantify-hackathon](https://github.com/tenantify-hackathon) | Halaman utama organisasi dan pusat seluruh pengembangan proyek Tenantify. |
+| **Web Application** | [tenantify-web-app](https://github.com/tenantify-hackathon/tenantify-web-app) | Aplikasi utama Tenantify yang mencakup pengelolaan Association, Seller, dan Consumer. |
+| **Machine Learning** | [tenantify-ml-models](https://github.com/tenantify-hackathon/tenantify-ml-models) | Backend AI untuk rekomendasi produk UMKM dan moderasi komentar berbasis NLU. |
+
+### Tautan Aplikasi
+
+| Platform | URL |
+|---|---|
+| Customer Application | [tenantify.store](https://tenantify.store) |
+| Seller & Association Dashboard | [seller.tenantify.store](https://seller.tenantify.store) |
+
+Seluruh repository merupakan bagian dari pengembangan **Tenantify — Ekosistem Digital untuk Pengelolaan Bazaar dan Food Court**.
+
+---
+
+
+---
 
 ## ✨ Fitur Utama
 
@@ -154,10 +184,6 @@ Untuk panduan deployment lebih lanjut, silakan lihat:
 
 - `DEPLOYMENT.md` — Panduan konfigurasi dan deployment.
 - `API_DOCUMENTATION.md` — Dokumentasi integrasi API.
-
-## 👥 Penanggung Jawab
-
-**Muhammad Sausan Syafiq - AI Engineer**
 
 ---
 
